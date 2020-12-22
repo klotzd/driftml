@@ -1,0 +1,2 @@
+2020-11-28 21:13:23	4m 49s	mighty_hawking	ERR	ca64e70f5e14fd5b2e19616f570e3a1c	d6c4689c-792f-4773-a504-c16dd3a13828	nextflow run main.nf
+2020-11-28 21:19:05	4m 50s	lonely_chandrasekhar	OK	ca64e70f5e14fd5b2e19616f570e3a1c	8785f797-d6ee-4c4a-a1f2-96ff1ae1bad2	nextflow run main.nf

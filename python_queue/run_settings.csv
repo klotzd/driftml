@@ -1,0 +1,2 @@
+ID,theta,U0,Uwind,xgrid,zgrid,note,write interval,duration
+1,90,3,2,60,1,test,0.01,5

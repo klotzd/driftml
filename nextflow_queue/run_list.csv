@@ -1,0 +1,2 @@
+run,theta,U0,Uwind,xgrid,zgrid,note,write interval,duration,alpha,phi
+1,90,3,0.5,30,10,test,0.25,5,15,90

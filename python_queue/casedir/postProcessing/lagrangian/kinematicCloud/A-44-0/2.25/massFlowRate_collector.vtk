@@ -1,0 +1,13 @@
+# vtk DataFile Version 2.0
+sampleSurface
+ASCII
+DATASET POLYDATA
+POINTS 4 float
+4.4 0.1 0 4.4 0.1 2 4.5 0.1 2 4.5 0.1
+0 
+POLYGONS 1 5
+4 0 1 2 3 
+CELL_DATA 1
+FIELD attributes 1
+massFlowRate 1 1 float
+1.92599e-06 

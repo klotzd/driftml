@@ -1,0 +1,55 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2006                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      injectionModel;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+        injector1
+        {
+            type            coneInjection;
+            SOI             0;
+            massTotal       0.095;
+            parcelBasisType mass;              // self adjusting via rho?
+            injectionMethod disc;
+            flowType        constantVelocity;
+            Umag            3;
+            U0              (0 -1 0);
+            flowRateProfile constant 1;
+
+            dInner          0;
+            dOuter          1e-2;
+
+            duration        3;
+            position        (0.5 0.6 1);
+            direction       (0 -1 0);
+
+            parcelsPerSecond 57000;
+            nParticle        1;
+        
+            thetaInner      constant 0.0;
+            thetaOuter      constant 40.0;
+
+            sizeDistribution
+            {
+                type        RosinRammler;
+
+                RosinRammlerDistribution
+                {
+                    minValue    1.5e-4;
+                    maxValue    5e-4;
+                    d           3e-4;
+                    n           3;
+                }
+            }
+        }

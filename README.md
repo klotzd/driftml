@@ -1,7 +1,7 @@
 # <p align="center"> Surrogate Modelling of Spray Dispersion using Computational Fluid Dynamics & Machine Learning </p> <p align="center"> *Sam Dale & Dominik Klotz* </p>
 
 
-Supplementary github repository for our final year research project investigating surrogate modelling of spray dispersion using computational fluid dynamics (CFD) and machine learning (ML). Repository contains several minimum working examples (MWE):
+Supplementary github repository for our final year research project investigating surrogate modelling of spray dispersion using computational fluid dynamics (CFD) and machine learning (ML). Pushed from our original closed Gitlab repo. Repository contains several minimum working examples (MWE):
 
 * An OpenFOAM (v6 and v8) CFD implementation of a E/L spray dispersion model comparable to wind tunnel studies under ISO22856:2008 
 * A Nextflow computational pipeline for the automated generation and processing of hundreds of CFD simulations from a parameter file
